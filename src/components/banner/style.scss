@@ -1,0 +1,18 @@
+.perritos {
+	background: url(../../img/perrto-gato2.jpg),
+		linear-gradient(to right, #dbd25a1f, rgba(235, 23, 8, 0.11));
+	background-blend-mode: multiply;
+	background-position: center center;
+	background-size: cover;
+	width: 100%;
+	height: 65vh;
+	overflow: hidden;
+	box-shadow: inset 0 0 0 1000px rgba(177, 145, 145, 0.13);
+	transition: background 100ms ease-in;
+	margin-top: 75px;
+	z-index: -1;
+	color: #fff;
+}
+.margin-top {
+	margin-top: 10rem;
+}

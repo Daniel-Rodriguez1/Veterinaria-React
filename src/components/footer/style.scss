@@ -1,0 +1,52 @@
+/* start footer  */
+footer {
+	box-shadow: 2px 3px 7px 2px grey;
+}
+
+footer div p a:hover {
+	color: #f79f1f !important;
+	text-decoration: none;
+}
+.huellas {
+	background-image: url(../../img/bg-huellas2.jpg);
+	background-position: center center;
+}
+footer a {
+	color: black;
+}
+
+.iconos i {
+	padding: 10px;
+	font-size: 1.5rem;
+}
+
+.ico:hover {
+	color: #f79f1f;
+}
+
+.fa-facebook-f {
+	color: #3b5998;
+	text-shadow: 2px 2px 2px #000000;
+}
+
+.fa-twitter {
+	color: #00acee;
+	text-shadow: 2px 2px 2px #000000;
+}
+
+.fa-instagram {
+	color: #e1306c;
+	text-shadow: 1px 1px 1px #000000;
+}
+
+.bg-white2 {
+	background-color: rgb(255, 255, 255);
+	font-weight: 500;
+	box-shadow: 2px;
+}
+
+.bg-white2 a:hover {
+	color: #f79f1f !important;
+	text-decoration: none;
+}
+/* end footer */

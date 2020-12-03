@@ -1,0 +1,100 @@
+/* 
+    #EE5A24 principal 
+    #EA2027 segundario
+    #F79F1F complementario
+ */
+/* font-family: 'Playfair Display', serif;
+font-family: 'Source Sans Pro', sans-serif; */
+
+body {
+	font-size: 100%;
+	/* 100% = 16px */
+	position: relative;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.letra1 {
+	font-family: 'Playfair Display', serif;
+	color: #f79f1f;
+}
+
+.letra2 {
+	font-family: 'Playfair Display', serif;
+	color: #ee5a24;
+}
+.size-t {
+	font-size: 2rem;
+}
+.pets {
+	font-size: 3rem;
+	color: #ea2027;
+}
+/* start main */
+
+.padding-text {
+	padding: 70px;
+}
+
+.row {
+	margin: 0;
+}
+.seccion {
+	background-color: white;
+	margin-top: 0 !important;
+}
+
+@media (min-width: 1420px) {
+	.seccion {
+		max-width: 1400px;
+		margin: 0 auto;
+	}
+}
+
+.h1 {
+	font-style: oblique;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.541);
+}
+
+.btn {
+	box-shadow: 0 0 0 3em #ee5a24 inset;
+	color: #ffffff;
+	transition: all 300ms ease;
+	border: none;
+	border-radius: 0;
+	width: 10rem;
+	padding: 10px;
+}
+
+.btn-negro:hover {
+	color: black;
+}
+
+.btn:hover {
+	box-shadow: 0 0 0 2px #ee5a24 inset;
+	background-color: transparent;
+}
+.menos-margin {
+	margin-top: -70px;
+}
+.bg-grey {
+	background-color: rgb(236, 236, 236);
+}
+.bg-trans {
+	background-color: rgba(255, 255, 255, 0);
+}
+.card {
+	border: 0px solid black;
+}
+.btn-outline-secondary:not(:disabled):not(.disabled).active,
+.btn-outline-secondary:not(:disabled):not(.disabled):active,
+.show > .btn-outline-secondary.dropdown-toggle {
+	color: #fff;
+	background-color: #000000eb;
+	border-color: #000000eb;
+}
+.btn-outline-secondary.focus,
+.btn-outline-secondary:focus {
+	box-shadow: 0 0 0 0.2rem #ee5a24;
+	color: #ee5a24;
+}
+/* end main */
