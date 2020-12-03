@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Banner from '../components/banner/banner'
 import img1 from '../img/productos/vetred.jpg'
 import img2 from '../img/productos/vetgreen.jpg'
@@ -7,6 +7,9 @@ import img4 from '../img/productos/vetblue.jpg'
 import img5 from '../img/productos/vetviolet.jpg'
 
 export default function Clinica() {
+	useEffect(() => {
+		window.scrollTo(0, 0)
+	}, [])
 	return (
 		<div>
 			<Banner

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Post from '../components/post/post'
 import { Link } from 'react-router-dom'
 import Carousel from '../components/carousel/carousel'
@@ -6,6 +6,10 @@ import img1 from '../img/groming.jpg'
 import img2 from '../img/productos/productos2.jpg'
 import img3 from '../img/promociones/productos.jpg'
 export default function Home() {
+	useEffect(() => {
+		window.scrollTo(0, 0)
+	})
+
 	return (
 		<div>
 			<Carousel />

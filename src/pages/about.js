@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Banner from '../components/banner/banner'
 import { Link } from 'react-router-dom'
 import Post from '../components/post/post'
@@ -8,6 +8,9 @@ import img2 from '../img/persona2.png'
 import img3 from '../img/persona3.png'
 import mapa from '../img/mapa.png'
 export default function About() {
+	useEffect(() => {
+		window.scrollTo(0, 0)
+	}, [])
 	return (
 		<div>
 			<Banner
